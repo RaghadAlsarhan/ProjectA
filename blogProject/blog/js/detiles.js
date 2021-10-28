@@ -1,3 +1,5 @@
+//show the saved objects in detail page
+
 $(document).ready(function(){
     const detail= JSON.parse(window.sessionStorage.getItem('subject'));
     console.log(detail);
