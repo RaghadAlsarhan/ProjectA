@@ -1,6 +1,9 @@
 $('#submitt').click(function(){
-    let txt= $('#exampleFormControlTextarea1').val();
+    let txt= $('#exampleFormControlInput1').val();
+    let text= $('#exampleFormControlTextarea1').val();
+    console.log(text);
     $('.list').append('<li>' +txt+'</li>');
-    $('li').css('text-align','center');
+    $('.list').append('<li>' +text+'</li>');
+    $('li').css('list-style-type','none');
+
 });
-   
